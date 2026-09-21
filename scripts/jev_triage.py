@@ -141,6 +141,7 @@ def main() -> None:
         "endpoint": API_URL,
         "model": MODEL,
     }
+    Path(args.summary).parent.mkdir(parents=True, exist_ok=True)
     Path(args.summary).write_text(json.dumps(summary, indent=2), encoding="utf-8")
     print(f"JEV_DONE n={len(results)}")
 
