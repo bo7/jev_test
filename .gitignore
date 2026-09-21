@@ -37,3 +37,8 @@ Thumbs.db
 *.log
 *.zip
 *.tar.gz
+
+# Local LinkedIn drafts (not for the public demo repo)
+LINKEDIN_ARTIKEL.md
+LINKEDIN*.md
+*LINKEDIN*
