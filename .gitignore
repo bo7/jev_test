@@ -1,11 +1,39 @@
-.DS_Store
+# Secrets & env
 .env
 .env.*
-*.pyc
+!.env.example
+*.pem
+*.key
+credentials*
+auth.json
+
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+.Python
 .venv/
 venv/
-out/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated experiment outputs (keep folder)
+out/*
+!out/.gitkeep
 results/
 *.jsonl
+
+# Local agent / IDE / OS
 .codex/
+.cursor/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archives / logs
+*.log
+*.zip
+*.tar.gz
