@@ -1,0 +1,23 @@
+{
+  "description": "Synthetic customer emails for the demo. No real addresses. Send these (or equivalents) into a connected inbox, or classify them from this file.",
+  "emails": [
+    {
+      "id": "demo_refund",
+      "from": "customer1@example.com",
+      "subject": "[DEMO][CUSTOMER1] Duplicate charge — please refund order A-104",
+      "body": "Hello,\n\nMy card was charged twice for order A-104 (49.00 EUR each). Please refund the duplicate charge in full.\n\nI need confirmation by Friday or I will escalate to my bank.\n\nThanks,\nCustomer1"
+    },
+    {
+      "id": "demo_partnership",
+      "from": "partnerships@example.com",
+      "subject": "[DEMO][CUSTOMER1] Partnership / newsletter sponsorship for October",
+      "body": "Hi,\n\nWe run managed Postgres hosting for developer teams and would like to sponsor your newsletter / community in October.\n\nCould you send a rate card and available slots? Budget and timing are already approved on our side.\n\nThanks,\nCustomer1\nProduct Partnerships"
+    },
+    {
+      "id": "demo_urgent_bug",
+      "from": "customer1@example.com",
+      "subject": "[DEMO][CUSTOMER1] URGENT!!! Export broken — everything is down!!!",
+      "body": "Hi,\n\nTHE EXPORT DOES NOT WORK ANYMORE. We are losing customers. Fix it NOW!!!!\n\nSince this morning. Sometimes Safari. No idea what exactly.\n\nGet back to us IMMEDIATELY.\n\nCustomer1"
+    }
+  ]
+}

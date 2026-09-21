@@ -1,0 +1,5 @@
+{
+  "demo_refund": { "priority": "red", "category": "billing" },
+  "demo_partnership": { "priority": "yellow", "category": "partnership" },
+  "demo_urgent_bug": { "priority": "red", "category": "bug" }
+}
